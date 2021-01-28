@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+    body {
+      /image background and positioning/
+      height:100%;
+      margin: 0;
+      font-family: century;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+     {
+      box-sizing: border-box;
+    }
+/* for the top image + wording bottom right*/
+        .container {
+            position: relative;
+            text-align: center;
+            font-family: cursive;
+            color: white;
+            }
+
+         .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 10px;
+            }
+
+        .taskbar{
+          position: sticky;
+          top: 0;
+        }
+
+    /* Navigation bar */
+
+ul {
+      list-style-type: none;
+      margin:0 ;
+      padding:0 ;
+      overflow: hidden;
+      border: 1px solid #5cceff;
+      background-color: #6fc4f2;
+      position:absolute;
+      width: 100%;
+    }
+/*taskbar flushed to the left*/
+li {
+      float: left;
+      padding: 0px 5px;
+    }
+/*color of the words for taskbar*/
+li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+/* when cursor over the taskbar*/
+li a:hover:not(.active) {
+      background-color:#005a82;
+    }
+/*when selected bar*/
+    .active {
+      background-color: #013952;
+     color: white;
+    }
+h1{
+          color: #960e1f;
+          font-family: cursive;
+          padding-top:60px;
+          width: 100%;
+          text-align: center;
+            font-size: 45px;
+    }
+h2{
+      color: #77a34e;
+      font-family: cursive;
+      padding-top: 50px;
+      width: 100%;
+      text-align: center;
+        font-size: 38px;
+}
+
+h3{
+      color: #77a34e;
+      font-size: 18px;
+      width: 80%;
+      text-align: center;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 10%;
+      left: 8%;
+  }
+
+h4{
+      color: #77a34e;
+      font-size: 20px;
+      width: 80%;
+      text-align: center;
+      font-family: cursive;
+      margin-top: 10px;
+}
+h5{
+      color: #4fb5e0;
+      font-size: 32px;
+      width: 80%;
+      text-align: center;
+      font-family: garamond;
+      margin-top: 40px;
+}
+
+/*for h4 links, must be consider a group*/
+a.performance:link {
+  color:black;
+  text-decoration:underline
+}
+
+a.performance:hover {
+  color:red;
+}
+
+a.performance:visited{
+  color: purple;
+}
+  </style>
+</head>
+
+<body style="background-image: url('marbleback.jpg');">
+  <!--Header-->
+  <div class="container">
+
+    <img src="picture.jpg" style="width:100%;">
+      <div class="bottom-right" style="font-size:30px;">Welcome to Night Safari</div>
+
+  </div>
+
+  <!--Navigation Bar-->
+<div class="taskbar">
+  <nav>
+    <ul>
+      <li><a class="active"
+             href="#home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Kingdom's Map">Kingdom's Map</a></li>
+      <li><a href="#Activities">Activities</a></li>
+      <li><a href="#Ticket Price">Ticket Price</a></li>
+      <li><a href="#How to get there">How to get there?</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div>
+  <h1 id="home"> <u> Welcome to the Night Kingdom </u></h2>
+    <br>
+    <h3><center><iframe width="560" height="315" src="https://www.youtube.com/embed/l2jshofMzQk?start=157"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </h3>
+<h2 id="About"><u>When are we operating?</u></h2>
+<p><center> Night Safari is open from Thursdays to Sundays, as well as eve of and on public holidays.
+  <br>Operating hours are from 6.30pm to 12am.
+  <br>The safety and well-being of our guests, staff and animals are our priority and we have put in place the necessary
+  <br>Safe Management Measures, so everyone can enjoy a meaningful wildlife experience in a safe and healthy environment.
+
+<h2 id="Kingdom's Map"><u> Kingdom's Map </u></h2>
+<img src="kingdommap1.jpg"style="width:80%;height:80%;">
+
+  <hr>
+</div>
+
+<div>
+  <h2 id="Activities"><u>Explore Our Attractions</u></h2>
+      <center><a href="https://www.youtube.com/watch?v=AER5_ZPyw3c&ab_channel=AnsonChew"
+      target="_blank"><img src="nsperformance1.jpg"style="width:80%;height:80%;">
+      <br>
+        <h4> <center> <b>
+          <a href="https://www.wrs.com.sg/en/night-safari/things-to-do/shows/thumbuakar-performance.html"
+          class="performance">Tumbakar Performance</b> <a/> </h4>
+          <p><center> Enjoy a fiery welcome to the Night Safari with this thrilling fire show happening right at the park entrance.
+            <br>Get revved up as pyro warriors demonstrate their fire-twirling skills to the beat of jungle drums.</br>
+            Follow the rhythm of their high-energy moves and be wowed by their flame-throwing feats.
+            <br>It’s just what you need to kick-start your Night Safari adventure. </br> </p>
+      <br>
+      <hr>
+<!--night show -->
+        <a href="https://www.youtube.com/watch?v=5RfK3FPh6Es&ab_channel=GypsyKing18"
+        target="_blank"><img src="nsperformance2.jpg"style="width:80%;height:80%;">
+        <h4> <center> <b>
+          <a href="https://www.wrs.com.sg/en/night-safari/things-to-do/shows/creatures-of-the-night-show.html"
+          class="performance">Creatures Of The Night Show</b> <a/> </h4>
+      <p><center> Be amazed as otters, binturongs, civets and other animals display their natural talents in this interactive show.
+        <br> Learn more about the spotted hyena's powerful jaws while the African serval demonstrates its incredible <br>ability to leap for prey.
+         The Creatures of the Night Show is a popular highlight at Night Safari.
+        <br> It’s highly recommended to arrive early at the venue to be seated before the start time to avoid disappointment.
+          <br><br>
+<hr>
+<!--tram ride-->
+        <a href="https://www.youtube.com/watch?v=uEgyMO5xw1M&ab_channel=DiscoveryWalkingToursTV"
+        target="_blank"><img src="nsperformance3.jpg"style="width:80%;height:80%;"></a>
+         <h4> <center> <b><a href="https://www.youtube.com/watch?v=TwJ8B7xPaBk&ab_channel=HEL"
+         class="performance">Tram Ride</b> <a/> </h4>
+          <p><center> Enjoy a fiery welcome to the Night Safari with this thrilling fire show happening right at the park entrance.
+            <br>Get revved up as pyro warriors demonstrate their fire-twirling skills to the beat of jungle drums.</br>
+            Follow the rhythm of their high-energy moves and be wowed by their flame-throwing feats.
+            <br>It’s just what you need to kick-start your Night Safari adventure. </br> </p>
+      <br>
+<hr>
+ <!--exotic animals-->
+        <a href="https://www.wrs.com.sg/en/night-safari/animals-and-zones/leopard.html"
+        target="_blank"><img src="nsperformance4.jpg" style="width:40%;height:40%;">
+        <a href="https://www.wrs.com.sg/en/night-safari/animals-and-zones/wallaby-trail.html"
+        target="_blank"><img src="wallaby.jpg" style="width:40%;height:40%;">
+          <h4> <center> <b><a href="https://www.wrs.com.sg/en/night-safari/animals-and-zones.html"
+            class="performance">Exotic Night Animal Trail</b> <a/> </h4>
+            <p><center> <h4><center><p> Leopard Trail </p></h4>
+              Trek down the Leopard Trail and watch as thenightly routine of leopards,lions, civets <br>and porcupines unfolds.
+             This trail also takes you through two spectacular walk-through <br>exhibits for up-close encounters with furry creatures of the skies
+            - the flying foxes and flying squirrels.
+          <h4><center><p> Wallaby Trail </p></h4>
+            Trek down the Wallaby Trail that brings you down under to the natural wonders and wildlife <br>of Australia,New Zealand and New Guinea.
+            Set off from the rustic Discovery Station to meet marsupials such as the sugar glider and brush-tailed possum.
+            Listen out for the morepork owl, named for its melancholic “more-pork” call.
+</p>
+<hr>
+
+<h5 id="Ticket Price"> <u> Ticket Price </u></h5>
+  <img src="price.jpg" style="width:80%;">
+<br>
+<hr>
+
+<h5 id="How to get there"><u> How to get there? </u></h5>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4395.0837200503365!2d103.7858901388112!3d1.4025160439501656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da13d7882e15f7%3A0x6ff144ead852d1e3!2sNight%20Safari!5e0!3m2!1sen!2ssg!4v1611799213049!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</body>
+</html>
